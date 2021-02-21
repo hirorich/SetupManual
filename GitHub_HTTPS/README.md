@@ -1,5 +1,2 @@
-# Title
-- あいうえお
-
-# marked.js
-- https://github.com/markedjs/marked
+# GitHubとHTTPSで接続する場合
+***

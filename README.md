@@ -2,6 +2,13 @@
 ***
 ## インストール手順
 ***
+### テキストエディタ
+***
+#### Visual Studio Code
+
+#### Sakura Editer
+
+***
 ### バージョン管理ツール
 ***
 #### ***<font color="red">前提条件</font>***
@@ -23,4 +30,12 @@
 ***
 ### 開発ツール
 ***
-#### Visual Studio Code
+#### Python
+
+***
+### コマンドツール
+***
+#### ffmpeg
+
+#### ImageMagick
+
