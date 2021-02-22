@@ -5,10 +5,17 @@
 - GitHubのアカウントを取得済みであること
 
 ***
-### テキストエディタ
-#### Visual Studio Code
+### 解凍ツール
+7Zip
+- [インストール手順](./unzip/7Zip/)
 
-#### Sakura Editer
+***
+### テキストエディタ
+#### サクラエディタ
+- [インストール手順](./TextEditer/sakura/)
+
+#### Visual Studio Code
+- [インストール手順](./TextEditer/vscode/)
 
 ***
 ### バージョン管理ツール
