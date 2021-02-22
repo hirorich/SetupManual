@@ -1,34 +1,36 @@
 # TortoiseGitインストール手順
 ## ダウンロード
-- [https://tortoisegit.org/download/](https://tortoisegit.org/download/)からインストーラをダウンロード
+1. [https://tortoisegit.org/download/](https://tortoisegit.org/download/)からインストーラをダウンロード
   <br /><img src="./img/01_download/01.png" width="480px">
-- 日本語パックもダウンロード
+1. 日本語パックもダウンロード
   <br /><img src="./img/01_download/02.png" width="480px">
 
 ## インストール
-- 手順1
+1. インストーラを起動
   <br /><img src="./img/02_install/01.png" width="480px">
-- 手順2
+1. [Next] 押下
   <br /><img src="./img/02_install/02.png" width="480px">
-- 手順3
+1. ライセンスを確認して [Next] 押下
   <br /><img src="./img/02_install/03.png" width="480px">
-- 手順4
+1. SSH接続時に使用するクライアントを選択して [Next] 押下
   <br /><img src="./img/02_install/04.png" width="480px">
-- 手順5
+    - デフォルトのままで良い
+1. インストールフォルダを選択して [Next] 押下
   <br /><img src="./img/02_install/05.png" width="480px">
-- 手順6
+    - デフォルトのままで良い
+1. [Install] 押下
   <br /><img src="./img/02_install/06.png" width="480px">
-- 手順7
+1. [Finish] 押下
   <br /><img src="./img/02_install/07.png" width="480px">
+    - チェックは外して良い
 
 ## 日本語化
-- 手順1
+1. 日本語パックを起動
   <br /><img src="./img/02_install/01.png" width="480px">
-- 手順2
+1. [次へ] 押下
   <br /><img src="./img/03_japanese/01.png" width="480px">
-- 手順3
+1. [Configure TortoiseGit to use this language] をチェックして [完了] 押下
   <br /><img src="./img/03_japanese/02.png" width="480px">
-  - [Configure TortoiseGit to use this language] をチェック
 
 ***
 ## 参考
