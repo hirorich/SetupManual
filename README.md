@@ -10,6 +10,7 @@
 - [インストール手順](./TextEditer/sakura/)
 
 #### Visual Studio Code
+- [インストール手順](./TextEditer/vscode/)
 
 ***
 ### バージョン管理ツール
