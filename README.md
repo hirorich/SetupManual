@@ -6,9 +6,10 @@
 
 ***
 ### テキストエディタ
-#### Visual Studio Code
+#### サクラエディタ
+- [インストール手順](./TextEditer/sakura/)
 
-#### Sakura Editer
+#### Visual Studio Code
 
 ***
 ### バージョン管理ツール
