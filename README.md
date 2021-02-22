@@ -8,7 +8,7 @@
 
 ***
 ### バージョン管理ツール
-#### ***<font color="red">前提条件</font>***
+#### <font color="red">前提条件</font>
 - GitHubのアカウントを取得済みであること
 
 #### Git
