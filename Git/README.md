@@ -55,6 +55,8 @@
 - 手順2
 <br /><img src="./img/03_setting/02.png" width="480px"><br />
 <br /><img src="./img/03_setting/03.png" width="480px"><br />
+- 手順3：再起動
+  - 再起動することでアイコンオーバーレイが有効になる
 
 ***
 ## 参考
