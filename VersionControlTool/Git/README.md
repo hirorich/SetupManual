@@ -1,4 +1,6 @@
 # Gitインストール手順
+- Visual Studio Code インストール後に実施
+
 ## ダウンロード
 1. [https://git-scm.com/downloads](https://git-scm.com/downloads)からインストーラをダウンロード
     <br /><img src="./img/01_download/01.png" width="480px">
