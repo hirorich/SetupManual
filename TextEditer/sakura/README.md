@@ -2,7 +2,7 @@
 ## ダウンロード
 1. [https://github.com/sakura-editor/sakura/releases](https://github.com/sakura-editor/sakura/releases)からインストーラをダウンロード
     - [〇〇-Release-Installer.zip] をダウンロード
-    - [7Zip](https://sevenzip.osdn.jp/) などで解凍
+    - 7Zip などで解凍
       - Windows 標準の機能で解凍した場合警告が表示される（らしい）
 
     <br /><img src="./img/01_download/01.png" width="480px">
