@@ -39,6 +39,10 @@
       - インデントを読みやすくするためのシンプルな拡張機能
 
     <br /><img src="./img/03_setting/03.png" width="480px">
+
 ***
+
 ## 参考
 - [【開発環境】Visual Studio CodeのUser InstallerとSystem Installerの違いは？Zip版って？](https://wakky.tech/difference-user-system/)
+
+***

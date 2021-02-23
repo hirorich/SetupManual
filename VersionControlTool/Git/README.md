@@ -142,7 +142,7 @@
       - <font color="red">既知のバグがあるため選択しない</font>
 1. インストールが開始される
     <br /><img src="./img/02_install/16.png" width="480px">
-1. [Finish]] 押下
+1. [Finish] 押下
     - チェックは外して良い
 
     <br /><img src="./img/02_install/17.png" width="480px">
@@ -174,6 +174,9 @@
     - アイコンオーバーレイは再起動後に有効になる
 
 ***
+
 ## 参考
 - [Windows10にGitをインストール (2021年02月更新)](https://www.curict.com/item/60/60bfe0e.html)
 - [最低限しておくといいgitconfigの設定](https://qiita.com/hayamofu/items/d8103e789196bcd8b489)
+
+***

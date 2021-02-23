@@ -70,6 +70,9 @@
     <br /><img src="./img/04_setting_TortoiseGit/05.png" width="480px">
 
 ***
+
 ## 参考
 - [【WinMerge】インストールする方法](https://pc-chain.com/winmerge-install/8668/)
 - [【WinMerge】Excelファイルの差分を比較する](http://bashalog.c-brains.jp/18/04/03-180000.php)
+
+***

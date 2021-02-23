@@ -30,3 +30,5 @@
     <br /><img src="./img/02_install/07.png" width="480px">
 1. [完了] 押下
     <br /><img src="./img/02_install/08.png" width="480px">
+
+***

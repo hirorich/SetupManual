@@ -16,3 +16,5 @@
     <br /><img src="./img/02_install/02.png" width="320px">
 1. [はい] 押下して再起動
     <br /><img src="./img/02_install/03.png" width="320px">
+
+***
