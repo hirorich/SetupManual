@@ -1,7 +1,8 @@
 # 環境構築資料
 ## インストール手順
 ### <font color="red">前提条件</font>
-- GitHubのアカウントを取得済みであること
+- Windows 10 Home
+- GitHubのアカウントを取得済み
 
 ***
 
@@ -44,7 +45,7 @@
   - [Install Docker Desktop on Windows Home](https://docs.docker.com/docker-for-windows/install-windows-home/)
   - [Windows Home に Docker Desktop をインストール](https://docs.docker.jp/docker-for-windows/install-windows-home.html)
   - [VS CodeでDocker開発コンテナを便利に使おう](https://qiita.com/Yuki_Oshima/items/d3b52c553387685460b0)
-  - [WSL2 + VSCode + Docker 開発環境](https://qiita.com/EBIHARA_kenji/items/12c7a452429d79006450)
+  - [Developing inside a Container](https://code.visualstudio.com/docs/remote/containers)
 
 #### Node.js
 - 参考
