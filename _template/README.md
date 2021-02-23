@@ -1,4 +1,6 @@
 # 〇〇インストール手順
+- 最終更新日：yyyy/MM/dd
+
 ## ダウンロード
 1. [URL](URL)からインストーラをダウンロード
     <br /><img src="./img/01_download/01.png" width="480px">

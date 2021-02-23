@@ -1,4 +1,6 @@
 # Visual Studio Code インストール手順
+- 最終更新日：2021/02/23
+
 ## ダウンロード
 1. [https://code.visualstudio.com/download](https://code.visualstudio.com/download)から [System Installer] をダウンロード
     <br /><img src="./img/01_download/01.png" width="480px">

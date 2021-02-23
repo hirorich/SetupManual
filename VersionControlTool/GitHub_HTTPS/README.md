@@ -1,4 +1,6 @@
 # GitHubとHTTPSで接続する場合
+- 最終更新日：2021/02/23
+
 ## HTTPS の URL からクローン
 - 初回クローン時に認証を求められる
 1. [Sign in with your browser] を押下

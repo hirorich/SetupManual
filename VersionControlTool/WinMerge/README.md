@@ -1,4 +1,6 @@
 # WinMergeインストール手順
+- 最終更新日：2021/02/23
+
 ## ダウンロード
 1. [https://winmergejp.bitbucket.io/](https://winmergejp.bitbucket.io/)からインストーラをダウンロード
     <br /><img src="./img/01_download/01.png" width="480px">
