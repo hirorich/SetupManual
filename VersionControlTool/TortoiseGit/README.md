@@ -1,4 +1,6 @@
 # TortoiseGitインストール手順
+- 最終更新日：2021/02/23
+
 ## ダウンロード
 1. [https://tortoisegit.org/download/](https://tortoisegit.org/download/)からインストーラをダウンロード
     <br /><img src="./img/01_download/01.png" width="480px">
@@ -36,5 +38,8 @@
     <br /><img src="./img/03_japanese/02.png" width="480px">
 
 ***
+
 ## 参考
 - [TortoiseGitインストール手順＜Windows向け＞](https://sukkiri.jp/technologies/devtools/git/tortoisegit_win.html)
+
+***

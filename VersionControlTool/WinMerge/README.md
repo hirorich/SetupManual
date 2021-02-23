@@ -1,4 +1,6 @@
 # WinMergeインストール手順
+- 最終更新日：2021/02/23
+
 ## ダウンロード
 1. [https://winmergejp.bitbucket.io/](https://winmergejp.bitbucket.io/)からインストーラをダウンロード
     <br /><img src="./img/01_download/01.png" width="480px">
@@ -70,6 +72,9 @@
     <br /><img src="./img/04_setting_TortoiseGit/05.png" width="480px">
 
 ***
+
 ## 参考
 - [【WinMerge】インストールする方法](https://pc-chain.com/winmerge-install/8668/)
 - [【WinMerge】Excelファイルの差分を比較する](http://bashalog.c-brains.jp/18/04/03-180000.php)
+
+***

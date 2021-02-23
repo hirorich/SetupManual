@@ -1,4 +1,7 @@
 # サクラエディタインストール手順
+- 最終更新日：2021/02/23
+- 7Zip インストール後に実施
+
 ## ダウンロード
 1. [https://github.com/sakura-editor/sakura/releases](https://github.com/sakura-editor/sakura/releases)からインストーラをダウンロード
     - [〇〇-Release-Installer.zip] をダウンロード
@@ -28,3 +31,5 @@
     <br /><img src="./img/02_install/07.png" width="480px">
 1. [完了] 押下
     <br /><img src="./img/02_install/08.png" width="480px">
+
+***

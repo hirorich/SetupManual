@@ -1,4 +1,6 @@
 # GitHubとHTTPSで接続する場合
+- 最終更新日：2021/02/23
+
 ## HTTPS の URL からクローン
 - 初回クローン時に認証を求められる
 1. [Sign in with your browser] を押下
@@ -12,3 +14,5 @@
       - コントロール パネル\ユーザー アカウント\資格情報マネージャー
 
     <br /><img src="./img/01_authentication/04.png" width="480px">
+
+***

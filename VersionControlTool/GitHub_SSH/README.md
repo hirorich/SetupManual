@@ -1,4 +1,6 @@
 # GitHubとSSHで接続する場合
+- 最終更新日：2021/02/23
+
 ## SSHの鍵を取得する
 1. ssh-keygenコマンドで鍵を生成
     - Git Bashを起動し、以下のコマンドを実行
@@ -87,6 +89,9 @@
     ```
 
 ***
+
 ## 参考
 - [今日からはじめるGitHub 〜 初心者がGitをインストールして、プルリクできるようになるまでを解説](https://eh-career.com/engineerhub/entry/2017/01/31/110000)
 - [【Git】Windows環境でGitHubにSSH接続してコミットするまでの手順](https://qiita.com/hollyhock0518/items/a3fee20951cd92c87ed9)
+
+***
