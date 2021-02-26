@@ -1,0 +1,103 @@
+# Pyrhonインストール手順
+- 最終更新日：2021/02/27
+
+## ダウンロード
+1. [https://www.python.org/downloads/](https://www.python.org/downloads/)からインストールしたい Python のバージョンを選択
+    <br /><img src="./img/01_download/01.png" width="480px">
+    <br /><img src="./img/01_download/02.png" width="480px">
+    - 例：[Download the latest version of Python] から最新版（3.9.2）を選択
+
+1. 遷移先画面からインストーラをダウンロード
+    <br /><img src="./img/01_download/03.png" width="480px">
+    - 例：[Windows installer（64bit）] を選択
+
+    <br /><img src="./img/01_download/04.png" width="480px">
+    - 複数のバージョン（3.9と3.8）をインストールすることも可能
+    - 例：[Windows x86-64 executable installer] を選択
+    - embeddable zip file
+      - 組み込み配布物用
+      - ユーザーのシステムから分離して使用可能（上級者向け）
+    - executable installer
+      - インストール時にネットワークにつながっている必要なし
+    - web-based installer
+      - インストール時にネットワークにつながっている必要あり
+
+## インストール
+1. インストーラを起動
+    <br /><img src="./img/02_install/01.png" width="480px">
+1. [Add Python x.y to Path] をチェックして [Customize installation] 押下
+    <br /><img src="./img/02_install/02.png" width="480px">
+    - x.y はインストールする Python のバージョン
+1. オプション機能を選択して [Next] 押下
+    - デフォルトのままで良い
+
+    <br /><img src="./img/02_install/03.png" width="480px">
+1. [Install for all users] を選択して [Install] 押下
+    - [Precompile standard library] が自動的に選択される
+    - インストール先に [Program Files] 配下が自動的に選択される
+
+    <br /><img src="./img/02_install/04.png" width="480px">
+1. インストールが開始される
+    <br /><img src="./img/02_install/05.png" width="480px">
+1. [Close] を押下して閉じる
+    <br /><img src="./img/02_install/06.png" width="480px">
+
+## セッティング
+### 仮想環境作成
+1. コマンドプロンプトで任意のフォルダを開く
+    ``` bash
+    cd C:\python_envs
+    ```
+    - 例： C:\python_envs
+    - 仮想環境は複数作れるため、仮想環境用のフォルダを作成すると管理しやすい
+
+    <br /><img src="./img/03_setting/01_venv/01.png" width="480px">
+    <br /><img src="./img/03_setting/01_venv/02.png" width="480px">
+
+1. 以下のコマンドで仮想環境を作成する
+    ``` bash
+    python -m venv [仮想環境名]
+    ```
+
+    <br /><img src="./img/03_setting/01_venv/03.png" width="480px">
+    <br /><img src="./img/03_setting/01_venv/04.png" width="480px">
+
+    - 以下のコマンドで Python のバージョンを指定して作成することも可能
+    ``` bash
+    py x.y -m venv [仮想環境名]
+    ```
+
+    <br /><img src="./img/03_setting/01_venv/05.png" width="480px">
+
+1. 仮想環境の切り替え確認
+    - 以下のコマンドにより仮想環境が切り替わることを確認
+      - 仮想環境用のフォルダ以外の任意のフォルダからでも絶対パス・相対パスで実行することにより切り替え可能
+    ``` bash
+    [仮想環境名]\Scripts\activate.bat
+    ```
+    <br /><img src="./img/03_setting/01_venv/06.png" width="480px">
+    <br /><img src="./img/03_setting/01_venv/07.png" width="480px">
+    - ([仮想環境名]) が先頭に表示される
+
+    <br /><img src="./img/03_setting/01_venv/08.png" width="480px">
+    <br /><img src="./img/03_setting/01_venv/09.png" width="480px">
+    - Python のバージョンを指定して作成した場合は Python のバージョンも変わる
+
+### Visual Studio Code
+
+***
+
+## 参考
+- [Windows版Pythonのインストール](https://www.python.jp/install/windows/install.html)
+- [Windows10 64bit に Python 3.6 のインストール](http://ksiz.hatenablog.jp/entry/2017/12/02/075123)
+- [embeddable、executable、web-basedの違いとは](https://boukenki.info/embeddable-executable-web-based-chigai/)
+- [仮想環境](https://www.python.jp/install/windows/venv.html)
+- [【vscode】環境構築 #1-venvで仮想環境作成-【Python】](https://hachian.com/2019/09/19/vscode_venv/)
+
+***
+
+## その他
+- [pipでアップデートするときのコマンド pip update](https://qiita.com/HyunwookPark/items/242a8ceea656416b6da8)
+- [【Windows】Pythonをアップデートする](https://www.suzu6.net/posts/224-python-windows-update/)
+
+***
