@@ -70,9 +70,11 @@
 ***
 
 ### コマンドツール
-#### ffmpeg
-
 #### ImageMagick
+- [インストール手順](./OtherTool/ImageMagick/)
+
+#### ffmpeg
+- [インストール手順](./OtherTool/ffmpeg/)
 
 ***
 
