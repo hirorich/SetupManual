@@ -1,5 +1,5 @@
 # FFmpegインストール手順
-- 最終更新日：yyyy/MM/dd
+- 最終更新日：2021/02/27
 
 ## ダウンロード
 1. [https://ffmpeg.org/download.html](https://ffmpeg.org/download.html)から [Windows builds from gyan.dev] を選択
