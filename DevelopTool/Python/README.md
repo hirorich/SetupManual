@@ -84,6 +84,63 @@
     - Python のバージョンを指定して作成した場合は Python のバージョンも変わる
 
 ### Visual Studio Code
+1. 拡張機能から Python をインストールする
+    <br /><img src="./img/03_setting/02_vscode/01.png" width="480px">
+
+1. 基本設定を開く
+    - ワークスペースに設定する場合は事前にワークスペースを vscode で開く
+
+    <br /><img src="./img/03_setting/02_vscode/02.png" width="480px">
+    -  ファイル > ユーザ設定 > 設定
+    - ショートカット：[ Ctrl + , ]
+
+    <br /><img src="./img/03_setting/02_vscode/03.png" width="480px">
+    - [ F1 ] または [ Ctrl + Shift + p ] でコマンドパレットを開き setting で検索でも開ける
+
+    <br /><img src="./img/03_setting/02_vscode/04.png" width="480px">
+
+1. [Python: Venv Path] に仮想環境を作成したフォルダの絶対パスを入力
+    - 本例では以下のパス
+    ```
+    C:\python_envs
+    ```
+    <br /><img src="./img/03_setting/02_vscode/05.png" width="480px">
+    - ユーザに対して設定する場合はユーザタブ内の項目に設定される
+    - ワークスペースに対して設定する場合はワークスペースタブ内の項目に設定される
+
+1. [Terminal > Integraded > Env: Windows] から Powershell の実行ポリシーを変更
+    <br /><img src="./img/03_setting/02_vscode/06.png" width="480px">
+    - [setting.json で編集] から設定ファイルを開き、以下の内容を追記する
+    ``` json
+    "terminal.integrated.env.windows": {
+        "PSExecutionPolicyPreference": "RemoteSigned"
+    }
+    ```
+
+    <br /><img src="./img/03_setting/02_vscode/07.png" width="480px">
+
+1. ウィンドウの再読み込み
+    - コマンドパレットから reload を検索して [ 開発者：ウィンドウの再読み込み ] 実行
+
+    <br /><img src="./img/03_setting/02_vscode/08.png" width="480px">
+
+1. ワークスペース内で Python のファイルを開く
+    <br /><img src="./img/03_setting/02_vscode/09.png" width="480px">
+
+1. 左下の Python のバージョンをクリックし仮想環境を切り替える
+    <br /><img src="./img/03_setting/02_vscode/10.png" width="480px">
+    - Python のバージョンの横に仮想環境名が表示される
+
+    <br /><img src="./img/03_setting/02_vscode/11.png" width="480px">
+    - 切り替えた仮想環境情報はワークスペースの設定ファイルに保持される
+
+    <br /><img src="./img/03_setting/02_vscode/12.png" width="480px">
+
+## 動作確認
+1. [ F5 ] を押下し [ Python File ] を選択する
+    <br /><img src="./img/04_check/01.png" width="480px">
+    <br /><img src="./img/04_check/02.png" width="480px">
+    - Powershell によって Python が起動する
 
 ***
 
@@ -93,11 +150,6 @@
 - [embeddable、executable、web-basedの違いとは](https://boukenki.info/embeddable-executable-web-based-chigai/)
 - [仮想環境](https://www.python.jp/install/windows/venv.html)
 - [【vscode】環境構築 #1-venvで仮想環境作成-【Python】](https://hachian.com/2019/09/19/vscode_venv/)
-
-***
-
-## その他
-- [pipでアップデートするときのコマンド pip update](https://qiita.com/HyunwookPark/items/242a8ceea656416b6da8)
-- [【Windows】Pythonをアップデートする](https://www.suzu6.net/posts/224-python-windows-update/)
+- [Windows版VisualStudioCodeで、スムーズvenvを使うための設定まとめ](https://attakei.net/blog/2019/windows-vscode-venv/index.html)
 
 ***
