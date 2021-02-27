@@ -136,11 +136,60 @@
 
     <br /><img src="./img/03_setting/02_vscode/12.png" width="480px">
 
-## 動作確認
-1. [ F5 ] を押下し [ Python File ] を選択する
-    <br /><img src="./img/04_check/01.png" width="480px">
-    <br /><img src="./img/04_check/02.png" width="480px">
+1. 動作確認
+    - [ F5 ] を押下し [ Python File ] を選択する
+
+    <br /><img src="./img/03_setting/02_vscode/13.png" width="480px">
+    <br /><img src="./img/03_setting/02_vscode/14.png" width="480px">
     - Powershell によって Python が起動する
+
+## パッケージ管理
+- 以下は切り替えた仮想環境内で行う
+  - パッケージのインストール
+  ``` bash
+  pip install <package-name>
+  ```
+  - パッケージのインストール（バージョン指定）
+  ``` bash
+  pip install <package-name>==<version>
+  ```
+  - 依存関係確認
+  ``` bash
+  pip check
+  ```
+  - パッケージのリスト表示
+  ``` bash
+  pip list
+  ```
+  - パッケージのリスト表示（アップデート必要）
+  ``` bash
+  pip list -o
+  ```
+  - パッケージのリスト表示（最新版）
+  ``` bash
+  pip list -u
+  ```
+  - パッケージのアップデート
+  ``` bash
+  pip install -U <package-name>
+  ```
+  - パッケージの詳細表示
+  ``` bash
+  pip show <package-name>
+  ```
+  - パッケージのアンインストール
+  ``` bash
+  pip uninstall <package-name>
+  ```
+  - パッケージの一括インストール
+    - 出力
+    ``` bash
+    pip freeze > requirements.txt
+    ```
+    - 入力
+    ``` bash
+    pip install -r requirements.txt
+    ```
 
 ***
 
@@ -151,5 +200,6 @@
 - [仮想環境](https://www.python.jp/install/windows/venv.html)
 - [【vscode】環境構築 #1-venvで仮想環境作成-【Python】](https://hachian.com/2019/09/19/vscode_venv/)
 - [Windows版VisualStudioCodeで、スムーズvenvを使うための設定まとめ](https://attakei.net/blog/2019/windows-vscode-venv/index.html)
+- [pipでアップデートするときのコマンド pip update](https://qiita.com/HyunwookPark/items/242a8ceea656416b6da8)
 
 ***

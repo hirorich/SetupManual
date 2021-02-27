@@ -47,8 +47,6 @@
   - scikit-learn、Numpy、Pandas、Matplotlib、OpenCV
   - eel
   - pygame
-  - [pipでアップデートするときのコマンド pip update](https://qiita.com/HyunwookPark/items/242a8ceea656416b6da8)
-  - [【Windows】Pythonをアップデートする](https://www.suzu6.net/posts/224-python-windows-update/)
 
 #### Node.js
 - 参考
