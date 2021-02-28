@@ -65,7 +65,7 @@
     - 作成された仮想環境名のフォルダを削除することで仮想環境の削除が可能
     - 以下のコマンドで Python のバージョンを指定して作成することも可能
     ``` bash
-    py x.y -m venv [仮想環境名]
+    py -x.y -m venv [仮想環境名]
     ```
 
     <br /><img src="./img/03_setting/01_venv/05.png" width="480px">
