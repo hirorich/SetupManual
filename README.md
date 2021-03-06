@@ -42,10 +42,11 @@
 #### Python
 - [インストール手順](./DevelopTool/Python/)
 - パッケージ、ライブラリ
-  - Django、Flask
+  - pipenv、autopep8、flake8、mypy
+  - Flask、Django
   - scikit-learn、Numpy、Pandas、Matplotlib、OpenCV
-  - eel
   - pygame
+  - eel
 
 #### Node.js
 - 参考
