@@ -1,5 +1,4 @@
 # 環境構築資料
-- 最終更新日：2021/02/23
 
 ## インストール手順
 ### <font color="red">前提条件</font>
@@ -40,43 +39,56 @@
 ***
 
 ### 開発ツール
-#### Node.js
-- 参考
-  - [公式ガイド](https://nodejs.org/ja/docs/guides/)
-  - [ダウンロード](https://nodejs.org/ja/download/)
+#### Python
+- [インストール手順](./DevelopTool/Python/)
 - パッケージ、ライブラリ
+  - pep8、flake8、autopep8
+  - Flask、Django
+  - scikit-learn、Numpy、Pandas、Matplotlib、OpenCV
+  - pygame
+  - eel
+
+#### Node.js
+- [インストール手順](./DevelopTool/NodeJs/)
+- パッケージ、ライブラリ
+  - TypeScript
   - [Bootstrap](https://getbootstrap.jp/)
     - [インストールマニュアル](https://getbootstrap.jp/docs/5.0/getting-started/download/)
+  - React.js
   - [Vue.js](https://v3.ja.vuejs.org/)
     - [インストール](https://v3.ja.vuejs.org/guide/installation.html)
-  - jquery
   - electron
-
-#### Python
-- 参考
-  - [Python環境構築ガイド](https://www.python.jp/install/install.html)
-- パッケージ、ライブラリ
-  - Django、Flask
-  - scikit-learn、Numpy、Pandas、Matplotlib、OpenCV
-  - eel
-  - pygame
+  - strapi
 
 #### Java
 - SpringBoot
 - Lombok
 - JUnit
 - MyBatis
+- Swagger
+- eclipse
+  - findbugs
+  - checkstyle
+    - google_checks.xml
 
 ***
 
 ### コマンドツール
-#### ffmpeg
-
 #### ImageMagick
+- [インストール手順](./OtherTool/ImageMagick/)
+
+#### ffmpeg
+- [インストール手順](./OtherTool/ffmpeg/)
 
 ***
 
 ### その他ツール（読み物）
+#### Python
+- 参考
+  - Lint、Formatter、docstring
+    - [Pythonのスタイルガイドとそれを守るための各種Lint・解析ツール5種まとめ！](https://siderlabs.com/blog/ja/python-lint-pickup-5tools/)
+    - [VS Code コーディング規約を快適に守る](https://qiita.com/firedfly/items/00c34018581c6cec9b84)
+
 #### Docker
 - 参考
   - Docker とは
@@ -99,5 +111,10 @@
 #### Kubernetes
 - 参考
   - [Kubernetesとは何か？](https://kubernetes.io/ja/docs/concepts/overview/what-is-kubernetes/)
+
+#### SonarCube
+- 参考
+  - [SonarQubeでソースコードの静的解析とレビューを自動化してみる(前編)](https://dev.classmethod.jp/articles/sonarqube-source-analytics-1/)
+  - [SonarQubeでソースコードの静的解析とレビューを自動化してみる(後編)](https://dev.classmethod.jp/articles/sonarqube-source-analytics-2/)
 
 ***
