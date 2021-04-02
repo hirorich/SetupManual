@@ -44,12 +44,13 @@
 
 ## セッティング
 ### 仮想環境作成
+- 仮想環境管理用のフォルダを作成するか、プロジェクトのルートに仮想環境名 .venv で作成する
+
 1. コマンドプロンプトで任意のフォルダを開く
     ``` bash
     cd C:\python_envs
     ```
     - 例： C:\python_envs
-    - 仮想環境は複数作れるため、仮想環境用のフォルダを作成すると管理しやすい
 
     <br /><img src="./img/03_setting/01_venv/01.png" width="480px">
     <br /><img src="./img/03_setting/01_venv/02.png" width="480px">
