@@ -64,6 +64,11 @@
 - Lombok
 - JUnit
 - MyBatis
+- Swagger
+- eclipse
+  - findbugs
+  - checkstyle
+    - google_checks.xml
 
 ***
 
@@ -99,5 +104,10 @@
 #### Kubernetes
 - 参考
   - [Kubernetesとは何か？](https://kubernetes.io/ja/docs/concepts/overview/what-is-kubernetes/)
+
+#### SonarCube
+- 参考
+  - [SonarQubeでソースコードの静的解析とレビューを自動化してみる(前編)](https://dev.classmethod.jp/articles/sonarqube-source-analytics-1/)
+  - [SonarQubeでソースコードの静的解析とレビューを自動化してみる(後編)](https://dev.classmethod.jp/articles/sonarqube-source-analytics-2/)
 
 ***
