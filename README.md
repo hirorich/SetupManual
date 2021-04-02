@@ -50,15 +50,12 @@
 
 #### Node.js
 - [インストール手順](./DevelopTool/NodeJs/)
-- 参考
-  - [公式ガイド](https://nodejs.org/ja/docs/guides/)
-  - [ダウンロード](https://nodejs.org/ja/download/)
 - パッケージ、ライブラリ
   - [Bootstrap](https://getbootstrap.jp/)
     - [インストールマニュアル](https://getbootstrap.jp/docs/5.0/getting-started/download/)
+  - React.js
   - [Vue.js](https://v3.ja.vuejs.org/)
     - [インストール](https://v3.ja.vuejs.org/guide/installation.html)
-  - jquery
   - electron
   - strapi
 

@@ -92,7 +92,9 @@ npm install
 ***
 
 ## 参考
+- [公式ガイド](https://nodejs.org/ja/docs/guides/)
 - [Node.jsをインストールする](https://qiita.com/sefoo0104/items/0653c935ea4a4db9dc2b)
 - [Visual Studio CodeとNode.jsの導入について](https://qiita.com/GRGSIBERIA/items/b8cd4a2b3635d1bb0391)
+- [npm入門](https://qiita.com/maitake9116/items/7825d90c09f3e2f87dea)
 
 ***
