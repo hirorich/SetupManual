@@ -202,5 +202,7 @@
 - [【vscode】環境構築 #1-venvで仮想環境作成-【Python】](https://hachian.com/2019/09/19/vscode_venv/)
 - [Windows版VisualStudioCodeで、スムーズvenvを使うための設定まとめ](https://attakei.net/blog/2019/windows-vscode-venv/index.html)
 - [pipでアップデートするときのコマンド pip update](https://qiita.com/HyunwookPark/items/242a8ceea656416b6da8)
+- [Pythonのスタイルガイドとそれを守るための各種Lint・解析ツール5種まとめ！](https://siderlabs.com/blog/ja/python-lint-pickup-5tools/)
+- [VS Code コーディング規約を快適に守る](https://qiita.com/firedfly/items/00c34018581c6cec9b84)
 
 ***
