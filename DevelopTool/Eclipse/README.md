@@ -35,6 +35,6 @@
     <br /><img src="./img/03_setting/02-02.png" width="480px">
 
 ### WildFly
-- [インストール手順](./DevelopTool/Eclipse/WildFly/)
+- [インストール手順](./WildFly/)
 
 ***
