@@ -1,5 +1,5 @@
-# Java SEインストール手順
-- 最終更新日：2021/06/15
+# Eclipse インストール手順
+- 最終更新日：2021/06/16
 
 ## ダウンロード
 1. [https://mergedoc.osdn.jp/](https://mergedoc.osdn.jp/)から任意のバージョンを選択
@@ -33,5 +33,8 @@
     - フォルダが存在しない場合は新規作成される
 
     <br /><img src="./img/03_setting/02-02.png" width="480px">
+
+### WildFly
+- [インストール手順](./DevelopTool/Eclipse/WildFly/)
 
 ***
