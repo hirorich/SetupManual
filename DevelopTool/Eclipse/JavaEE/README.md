@@ -31,6 +31,7 @@
 ***
 
 ## 参考
+- [JSF 2.3 tutorial with Eclipse, Maven, WildFly and H2](https://balusc.omnifaces.org/2020/04/jsf-23-tutorial-with-eclipse-maven.html)
 - [First Cup of Java EE Tutorial](https://javaee.github.io/firstcup/)
 - [Java Platform, Enterprise Edition (Java EE) 8 Your First Cup: An Introduction to the Java EE Platform](https://javaee.github.io/firstcup/toc.html)
 - [Java/JavaEE開発キットの作成](https://www.nextdoorwith.info/wp/se/devstd/jee7devkit/)
