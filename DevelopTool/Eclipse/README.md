@@ -34,7 +34,29 @@
 
     <br /><img src="./img/03_setting/02-02.png" width="480px">
 
+1. [ウィンドウ] > [設定] を開く
+    <br /><img src="./img/03_setting/03.png" width="480px">
+
+1. [一般] > [ワークスペース] を開き、以下の通り設定して [適用] 押下
+    - テキスト・ファイル・エンコード
+      - その他：UTF-8
+    - 新規テキスト・ファイルの行区切り文字
+      - その他：Unix
+
+    <br /><img src="./img/03_setting/04.png" width="480px">
+    - 各OSのコード
+      | OS | 改行コード |
+      | --- | --- |
+      | UNIX系OS | LF（\n） |
+      | Mac OS(9以前) | CR（\r） |
+      | Mac OS X(10以降) | LF（\n） |
+      | Windows | CR＋LF（\r\n） |
+
+1. [Java] > [コンパイラー] を開き、コンパイラー準拠レベルを1.8以上に設定して [適用] 押下
+    <br /><img src="./img/03_setting/05.png" width="480px">
+
 ### WildFly
 - [インストール手順](./WildFly/)
+- [JSF 2.3 tutorial with Eclipse, Maven, WildFly and H2](https://balusc.omnifaces.org/2020/04/jsf-23-tutorial-with-eclipse-maven.html)
 
 ***
