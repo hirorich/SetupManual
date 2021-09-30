@@ -47,6 +47,7 @@
   - scikit-learn、Numpy、Pandas、Matplotlib、OpenCV
   - pygame
   - eel
+- [パッケージアップロード](./Account/PyPI/README.md)
 
 #### Node.js
 - [インストール手順](./DevelopTool/NodeJs/)
