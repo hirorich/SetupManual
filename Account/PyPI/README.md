@@ -15,6 +15,3 @@
 
 1. 届いたメールの `click this link to verify your email address` をクリックして、メールアドレスを有効化する
 
-***
-## 参考
-- [Pythonで作成したライブラリを、PyPIに公開/アップロードする](https://qiita.com/icoxfog417/items/edba14600323df6bf5e0)
