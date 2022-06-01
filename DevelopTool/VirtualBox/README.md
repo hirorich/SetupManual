@@ -39,7 +39,7 @@
     <br /><img src="./img/02_install/09.png" width="480px">
 
 ## CentOSダウンロード
-1. [https://www.centos.org/download/](https://www.centos.org/download/) を開き [x86_64] 押下
+1. [https://www.centos.org/download/](https://www.centos.org/download/) を開き [x86_64] を押下
 
     <br /><img src="./img/03_download_centos/01.png" width="480px">
     <br /><img src="./img/03_download_centos/02.png" width="480px">
@@ -54,7 +54,78 @@
 
     <br /><img src="./img/03_download_centos/04.png" width="480px">
 
-## セッティング
+## 仮想マシン作成
+1. VirtualBox を開き [新規] を押下
+
+    <br /><img src="./img/04_create_vm/01.png" width="480px">
+
+1. 仮想マシンを設定し [次へ] を押下
+    - 名前：任意の名前
+    - タイプ：Linux
+    - バージョン：Red Hat (64-bit)
+
+    <br /><img src="./img/04_create_vm/02.png" width="320px">
+
+1. [次へ] を押下
+    - 1024MB を指定
+    - デフォルトのままで良い
+
+    <br /><img src="./img/04_create_vm/03.png" width="320px">
+
+1. [作成] を押下
+    - [仮想ハードディスクを作成する] をチェック
+    - デフォルトのままで良い
+
+    <br /><img src="./img/04_create_vm/04.png" width="320px">
+
+1. [次へ] を押下
+    - [VDI (VirtualBox Disc Image)] をチェック
+    - デフォルトのままで良い
+
+    <br /><img src="./img/04_create_vm/05.png" width="320px">
+
+1. [次へ] を押下
+    - [可変サイズ] をチェック
+    - デフォルトのままで良い
+
+    <br /><img src="./img/04_create_vm/06.png" width="320px">
+
+1. 仮想ハードディスクのサイズを指定し [作成] を押下
+    - デフォルトの 8.00 GB から 16.00 GB に変更する
+
+    <br /><img src="./img/04_create_vm/07.png" width="320px">
+
+1. [起動] を押下
+
+    <br /><img src="./img/04_create_vm/08.png" width="480px">
+
+1. プルダウン横のアイコンを押下し [追加] を押下
+
+    <br /><img src="./img/04_create_vm/09.png" width="320px">
+    <br /><img src="./img/04_create_vm
+/10.png" width="320px">
+
+1. ダウンロードしたOSイメージを開き [選択] を押下
+
+    <br /><img src="./img/04_create_vm/11.png" width="480px">
+    <br /><img src="./img/04_create_vm
+/12.png" width="320px">
+
+1. [起動] を押下
+
+    <br /><img src="./img/04_create_vm/13.png" width="320px">
+
+1. [Install CentOS 7] を押下
+
+    <br /><img src="./img/04_create_vm/14.png" width="320px">
+
+    - 次の画面が表示される場合は [キャプチャー] を押下
+
+    <br /><img src="./img/04_create_vm/15.png" width="320px">
+
+1. [日本語] を選択し [続行] を押下
+
+    <br /><img src="./img/04_create_vm/16.png" width="320px">
 
 ***
 
