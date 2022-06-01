@@ -127,11 +127,115 @@
 
     <br /><img src="./img/04_create_vm/16.png" width="320px">
 
+## 仮想マシンのセッティング
+1. [ソフトウェアの選択] を押下
+
+    <br /><img src="./img/05_setting_vm/01.png" width="320px">
+
+1. [サーバー (GUI 使用)] を選択し [完了] を押下
+
+    <br /><img src="./img/05_setting_vm/02.png" width="320px">
+
+1. [インストール先] を押下
+
+    <br /><img src="./img/05_setting_vm/03.png" width="320px">
+
+1. [完了] を押下
+
+    <br /><img src="./img/05_setting_vm/04.png" width="320px">
+
+1. [ネットワークとホスト名] を押下
+
+    <br /><img src="./img/05_setting_vm/05.png" width="320px">
+
+1. [Ethernet] を ON に変更し [完了] を押下
+
+    <br /><img src="./img/05_setting_vm/06.png" width="320px">
+
+1. [インストールの開始] を押下
+
+    <br /><img src="./img/05_setting_vm/07.png" width="320px">
+
+1. インストールが開始される
+
+    <br /><img src="./img/05_setting_vm/08.png" width="320px">
+
+1. インストール完了後 [ROOTパスワード] を押下
+
+    <br /><img src="./img/05_setting_vm/09.png" width="320px">
+
+1. root ユーザのパスワードを設定し [完了] を押下
+    - パスワード：root
+    - <font color="red">学習用のため簡易的なパスワードに設定したが、本来は強力なパスワードを設定すること</font>
+
+    <br /><img src="./img/05_setting_vm/10.png" width="320px">
+
+1. [ユーザーの作成] を押下
+
+    <br /><img src="./img/05_setting_vm/11.png" width="320px">
+
+1. ユーザーを設定し [完了] を押下
+    - フルネーム：Admin User
+    - ユーザー名：admin
+    - [このユーザーを管理者にする] をチェック
+    - パスワード：admin
+    - <font color="red">学習用のため簡易的なパスワードに設定したが、本来は強力なパスワードを設定すること</font>
+
+    <br /><img src="./img/05_setting_vm/12.png" width="320px">
+
+1. [設定完了] を押下
+
+    <br /><img src="./img/05_setting_vm/13.png" width="320px">
+
+1. 設定が実行される
+
+    <br /><img src="./img/05_setting_vm/14.png" width="320px">
+
+1. 完了後 [再起動] を押下
+
+    <br /><img src="./img/05_setting_vm/15.png" width="320px">
+
+1. 再起動後 [LICENSE INFORMATION] を押下
+
+    <br /><img src="./img/05_setting_vm/16.png" width="320px">
+
+1. [ライセンス契約に同意します] をチェックし [完了] を押下
+
+    <br /><img src="./img/05_setting_vm/17.png" width="320px">
+
+1. [設定の完了] を押下
+
+    <br /><img src="./img/05_setting_vm/18.png" width="320px">
+
+1. サインイン
+
+    <br /><img src="./img/05_setting_vm/19.png" width="320px">
+    <br /><img src="./img/05_setting_vm/20.png" width="320px">
+
+1. [日本語] を選択し [次へ] を押下
+
+    <br /><img src="./img/05_setting_vm/21.png" width="320px">
+
+1. [日本語] を選択し [次へ] を押下
+
+    <br /><img src="./img/05_setting_vm/22.png" width="320px">
+
+1. [オフ] を選択し [次へ] を押下
+
+    <br /><img src="./img/05_setting_vm/23.png" width="320px">
+
+1. [スキップ] を押下
+
+    <br /><img src="./img/05_setting_vm/24.png" width="320px">
+
+1. [CentOS Linux を使い始める] を押下
+
+    <br /><img src="./img/05_setting_vm/25.png" width="320px">
+
 ***
 
 ## 参考
 - [もう絶対に忘れない Linux コマンド【Linux 100本ノック+名前の由来+丁寧な解説で、長期記憶に焼き付けろ！】](https://www.udemy.com/course/linux100test/)
 - [OracleVM VirtualBoxのインストール手順＜Windows向け＞](https://sukkiri.jp/technologies/virtualizers/virtualbox/virtualbox-win_install.html)
-- [第4回 要注目のPC向け無償仮想化ソフト「VirtualBox」](https://xtech.nikkei.com/it/article/COLUMN/20120330/388285/)
 
 ***
