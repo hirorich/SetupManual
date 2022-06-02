@@ -60,8 +60,6 @@
     <br /><img src="./img/03_setting/03.png" width="320px">
 
 1. [OK] を押下
-    - 割り当て：NAT
-
     <br /><img src="./img/03_setting/04.png" width="480px">
 
 1. CentOS を起動
@@ -94,10 +92,60 @@
 1. [ exit ] コマンドで切断
     <br /><img src="./img/04_connect/05.png" width="480px">
 
+## ユーザ追加
+- [ guest01 ] を追加する例
+
+1. root ユーザに切替
+    ```
+    su
+    ```
+    - root ユーザのパスワードの入力を求められるため入力
+1. ユーザ追加
+    ```
+    useradd guest01
+    ```
+1. パスワード設定
+    ```
+    passwd guest01
+    ```
+    - パスワードの入力を求められるため入力
+1. root ユーザから元のユーザに戻る
+    ```
+    exit
+    ```
+1. ユーザ一覧確認
+    ```
+    cut -d: -f1 /etc/passwd
+    ```
+
+## ユーザ削除
+- [ guest01 ] を削除する例
+
+1. root ユーザに切替
+    ```
+    su
+    ```
+    - root ユーザのパスワードの入力を求められるため入力
+1. ユーザ削除
+    ```
+    userdel -r guest01
+    ```
+    - [ -r ] オプションを指定すると対象ユーザーのホームディレクトリとメールスプールも同時に削除される
+1. root ユーザから元のユーザに戻る
+    ```
+    exit
+    ```
+1. ユーザ一覧確認
+    ```
+    cut -d: -f1 /etc/passwd
+    ```
+
 ***
 
 ## 参考
 - [【ゼロからわかる】Teratermのインストールと使い方](https://eng-entrance.com/teraterm-install)
 - [20時間で【Linux】マスター！！基礎、シェルスクリプト、Docker基礎、ネットワーク 、セキュリティを体系的に解説](https://www.udemy.com/course/linuxlpic/)
+- [【 useradd 】コマンド――新規ユーザーを作成する](https://atmarkit.itmedia.co.jp/ait/articles/1811/02/news035.html)
+- [【 userdel 】コマンド――ユーザーを削除する](https://atmarkit.itmedia.co.jp/ait/articles/1811/09/news031.html)
 
 ***
