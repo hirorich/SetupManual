@@ -113,10 +113,13 @@
     ```
     exit
     ```
-1. ユーザ一覧確認
+1. ユーザ追加確認
     ```
-    cut -d: -f1 /etc/passwd
+    grep '^guest01:' /etc/passwd | cut -d: -f1
     ```
+    - [ /etc/passwd ] にユーザ一情報があるため grep で抽出
+
+<br /><img src="./img/05_user/useradd.png" width="480px">
 
 ## ユーザ削除
 - [ guest01 ] を削除する例
@@ -135,10 +138,12 @@
     ```
     exit
     ```
-1. ユーザ一覧確認
+1. ユーザ削除確認
     ```
-    cut -d: -f1 /etc/passwd
+    grep '^guest01:' /etc/passwd | cut -d: -f1
     ```
+
+<br /><img src="./img/05_user/userdel.png" width="480px">
 
 ***
 
