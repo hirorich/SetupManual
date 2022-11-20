@@ -1,5 +1,5 @@
 # Node.jsインストール手順
-- 最終更新日：2021/04/02
+- 最終更新日：2022/11/20
 
 ## ダウンロード
 1. [https://github.com/coreybutler/nvm-windows/releases](https://github.com/coreybutler/nvm-windows/releases) から`nvm-setup.zip` をダウンロード
