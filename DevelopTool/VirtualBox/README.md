@@ -102,14 +102,12 @@
 1. プルダウン横のアイコンを押下し [追加] を押下
 
     <br /><img src="./img/04_create_vm/09.png" width="320px">
-    <br /><img src="./img/04_create_vm
-/10.png" width="320px">
+    <br /><img src="./img/04_create_vm/10.png" width="320px">
 
 1. ダウンロードしたOSイメージを開き [選択] を押下
 
     <br /><img src="./img/04_create_vm/11.png" width="480px">
-    <br /><img src="./img/04_create_vm
-/12.png" width="320px">
+    <br /><img src="./img/04_create_vm/12.png" width="320px">
 
 1. [起動] を押下
 
